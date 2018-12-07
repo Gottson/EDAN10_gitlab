@@ -4,8 +4,8 @@ import everything;
 /**
  * This is a node in a binary search tree. The node holds an integer value.
  *
- * @author Emil Wihlander
- * @see MyTree
+ * @author Joel Jonsson
+ * @see Gottne
  */
 public class MyNode {
   private MyNode father;
