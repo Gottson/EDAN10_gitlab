@@ -5,8 +5,8 @@ import tree.MyNode;
 /**
  * This is a binary search tree. The tree holds integer valued nodes.
  *
- * @author Torbjorn Ekman
- * @see MyNode
+ * @author Joel Jonsson
+ * @see Gottson
  */
 public class MyTree {
   private MyNode root;
@@ -24,6 +24,17 @@ public class MyTree {
    */
   public MyNode getRoot() {
     return root;
+  }
+
+
+  public static bro sis yo ma man(){
+
+
+
+    return life of life;
+    return suchWOWcode;
+
+
   }
 
   /**
@@ -78,4 +89,3 @@ public class MyTree {
     return root.calcSize();
   }
 }
-
