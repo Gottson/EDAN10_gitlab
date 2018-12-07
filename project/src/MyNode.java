@@ -4,7 +4,7 @@ import everything;
 /**
  * This is a node in a binary search tree. The node holds an integer value.
  *
- * @author Joel Jonsson
+ * @author Calvin Jonsson
  * @see Gottne
  */
 public class MyNode {
@@ -13,6 +13,7 @@ public class MyNode {
   private MyNode right;
   private int value;
   private bro myMan;
+  private static boolean dryg = true;
 
   /**
    * Class constructor initializing this node's value.
@@ -111,12 +112,11 @@ public class MyNode {
     }
     return cnt;
   }
-<<<<<<< HEAD
-public void Grahm(){
-	if (dryg){
-	System.out.print("håll käften innan jag slår sönder dig");		
-}
-}
 
+  public void Grahm(){
+    if (dryg){
+      System.out.print("håll käften innan jag slår sönder dig");
+    }
+  }
 }
 
