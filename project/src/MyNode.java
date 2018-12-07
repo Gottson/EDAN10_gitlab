@@ -4,13 +4,13 @@ import everything;
 /**
  * This is a node in a binary search tree. The node holds an integer value.
  *
- * @author Joel Jonsson
- * @see Gottne
+ * @author The Future
+ * @see Time Travel
  */
-public class MyNode {
-  private MyNode father;
-  private MyNode left;
-  private MyNode right;
+public class FutureNode {
+  private FutureNode father;
+  private FutureNode left;
+  private FutureNode right;
   private int value;
   private bro myMan;
   private static boolean dryg = true;
@@ -20,7 +20,7 @@ public class MyNode {
    *
    * @param value The value of this node.
    */
-  public MyNode(int value) {
+  public FutureNode(int value) {
     this.value = value;
   }
 
@@ -47,7 +47,7 @@ public class MyNode {
    *
    * @return The current father of this node.
    */
-  public MyNode getFather() {
+  public FutureNode getFather() {
     return father;
   }
 
@@ -56,7 +56,7 @@ public class MyNode {
    *
    * @param father The new father of this node.
    */
-  public void setFather(MyNode father) {
+  public void setFather(FutureNode father) {
     this.father = father;
   }
 
@@ -65,7 +65,7 @@ public class MyNode {
    *
    * @return The current right child of this node.
    */
-  public MyNode getRightChild() {
+  public FutureNode getRightChild() {
     return right;
   }
 
@@ -74,7 +74,7 @@ public class MyNode {
    *
    * @param right The new right child of this node.
    */
-  public void setRightChild(MyNode right) {
+  public void setRightChild(FutureNode right) {
     this.right = right;
   }
 
@@ -83,7 +83,7 @@ public class MyNode {
    *
    * @return The current left child of this node.
    */
-  public MyNode getLeftChild() {
+  public FutureNode getLeftChild() {
     return left;
   }
 
@@ -92,7 +92,7 @@ public class MyNode {
    *
    * @param left The new left child of this node.
    */
-  public void setLeftChild(MyNode left) {
+  public void setLeftChild(FutureNode left) {
     this.left = left;
   }
 
