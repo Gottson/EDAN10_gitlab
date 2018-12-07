@@ -109,4 +109,18 @@ public class MyNode {
     }
     return cnt;
   }
+public void Grahm(){
+	if (dryg){
+	System.out.print("håll käften innan jag slår sönder dig");		
+}
+}
+
+
+
+
+
+
+
+
+
 } 
