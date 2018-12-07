@@ -4,7 +4,7 @@ import everything;
 /**
  * This is a node in a binary search tree. The node holds an integer value.
  *
- * @author Jlólar of jolar
+ * @author Future
  * @see Time Travel
  */
 public class FutureNode {
