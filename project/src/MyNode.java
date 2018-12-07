@@ -11,6 +11,7 @@ public class MyNode {
   private MyNode father;
   private MyNode left;
   private MyNode right;
+  private MyNode noFuture;
   private int value;
   private bro myMan;
   private static boolean dryg = true;
@@ -119,4 +120,3 @@ public class MyNode {
     }
   }
 }
-
