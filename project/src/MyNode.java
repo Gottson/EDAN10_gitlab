@@ -3,7 +3,7 @@ package tree;
 /**
  * This is a node in a binary search tree. The node holds an integer value.
  *
- * @author Torbjorn Ekman
+ * @author Emil Wihlander
  * @see MyTree
  */
 public class MyNode {
@@ -11,10 +11,11 @@ public class MyNode {
   private MyNode left;
   private MyNode right;
   private int value;
+  private bro myMan;
 
   /**
    * Class constructor initializing this node's value.
-   * 
+   *
    * @param value The value of this node.
    */
   public MyNode(int value) {
@@ -109,18 +110,12 @@ public class MyNode {
     }
     return cnt;
   }
+<<<<<<< HEAD
 public void Grahm(){
 	if (dryg){
 	System.out.print("håll käften innan jag slår sönder dig");		
 }
 }
 
+}
 
-
-
-
-
-
-
-
-} 
